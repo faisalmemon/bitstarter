@@ -1,0 +1,50 @@
+    7  curl https://raw.github.com/startup-class/setup/master/setup.sh | bash
+   12  curl https://raw.github.com/startup-class/setup/master/setup.sh | bash
+   16  curl https://raw.github.com/startup-class/setup/master/setup.sh >setup.sh
+   19  sudo apt-get install -y git
+   39  mkdir git-repos
+   40  cd git-repos/
+   42  git clone https://github.com/startup-class/bitstarter-ssjs-db.git
+   58  cd git-repos/
+   63  git status
+   64  git commit -am 'change to smaller donation amount'
+   65  git config --global user.name "Faisal Memon"
+   66  git config --global user.email faisal@perivalebluebell.com
+   67  git checkout staging
+   68  git merge develop
+   69  git remote -v
+   70  git branch
+   71  git checkout master
+   73  git push origin :
+   74  git status
+   75  git push production-heroku master:master
+   79  git push production-heroku master:master
+   82  git remote -v
+   92  git remote add
+   93  git remote add production-heroku git@heroku.com:faisalmemon-bitstarter-mooc.git
+   94  git push production-heroku master:master
+   95  git remote add staging-heroku git@heroku.com:faisalmemon-bitstarter-s-mooc.git
+   96  git pull :
+   97  git status
+   98  git branches
+   99  git remote branches
+  100  git remote ls
+  101  git branch
+  102  git checkout staging
+  103  git merge master
+  104  git checkout develop
+  105  git remote
+  106  git remote -v
+  107  git status
+  108  git push origin :
+  116  cd git-repos/
+  120  git status
+  121  git push :
+  122  git push origin :
+  123  git remote -v
+  124  git remote
+  125  git remote ??
+  126  git remote set-url origin  git@github.com:faisalmemon/bitstarter.git
+  127  git push origin :
+  129  history | grep git
+  131  history | grep git > git-cmds.txt
