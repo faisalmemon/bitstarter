@@ -3,3 +3,6 @@ test.tar.gz
 *~
 [#]*[#]
 .\#*
+
+# Never put the .env file into the rep as it has our API keys
+.env
