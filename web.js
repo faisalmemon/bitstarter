@@ -18,6 +18,10 @@ app.get('/', function(request, response) {
   var data = fs.readFileSync('index.html').toString();
   response.send(data);
 });
+app.get('/demo.html', function(request, response) {
+  var data = fs.readFileSync('demo.html').toString();
+  response.send(data);
+});
 
 // Render example.com/orders
 app.get('/orders', function(request, response) {
